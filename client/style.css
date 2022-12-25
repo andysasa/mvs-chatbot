@@ -15,6 +15,7 @@ body {
 
 header {
   background:#1B047C;
+  margin: auto 3rem;
   padding: 1.5rem;
   width: 100%;
 
@@ -35,7 +36,6 @@ h1 {
 
 .logo {
   color:#CABDFF;
-  margin: auto 3rem;
   font-size: 2rem;
 }
 
