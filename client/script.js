@@ -11,8 +11,8 @@ const documentHeight = () => {
   doc.style.setProperty('--doc-height', `${window.innerHeight}px`)
  }
 
- window.addEventListener('resize', documentHeight)
- documentHeight()
+ window.addEventListener('resize', documentHeight);
+ documentHeight();
 
 function loader(element) {
   element.textContent += '.';
