@@ -31,7 +31,7 @@ app.post('/', async (req, res) => {
     const prompt = req.body.prompt;
 
     const response = await openai.createCompletion({
-      model: "davinci:ft-modern-vet-solutions-2023-05-11-18-39-35",
+      model: "gpt-3.5-turbo",
       prompt: `${prompt}`,
       temperature: 0.3,
       max_tokens: 300,
